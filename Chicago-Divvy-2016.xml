@@ -1,0 +1,740 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Abdullah Alamri</Author>
+  <LastAuthor>Abdullah Alamri</LastAuthor>
+  <Created>2018-10-25T14:14:45Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16580</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>380</WindowTopX>
+  <WindowTopY>460</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Chicago-Divvy-2016">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="270" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell><Data ss:Type="String">&lt;!DOCTYPE HTML&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;html&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell><Data ss:Type="String">&lt;head&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;meta charset=&quot;utf-8&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String">    &lt;title&gt;Chicago-Divvy-2016.csv (editing)&lt;/title&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;link id=&quot;favicon&quot; rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;/static/base/images/favicon-file.ico?v=e2776a7f45692c839d6eea7d7ff6f3b2&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot; /&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/components/jquery-ui/themes/smoothness/jquery-ui.min.css?v=3c2a865c832a1322285c55c6ed99abb2&quot; type=&quot;text/css&quot; /&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/components/jquery-typeahead/dist/jquery.typeahead.min.css?v=7afb461de36accb1aa133a1710f5bc56&quot; type=&quot;text/css&quot; /&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width</Data></Cell>
+    <Cell><Data ss:Type="String"> initial-scale=1.0&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;link rel=&quot;stylesheet&quot; href=&quot;/static/components/codemirror/lib/codemirror.css?v=288352df06a67ee35003b0981da414ac&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;link rel=&quot;stylesheet&quot; href=&quot;/static/components/codemirror/addon/dialog/dialog.css?v=c89dce10b44d2882a024e7befc2b63f5&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">    &lt;link rel=&quot;stylesheet&quot; href=&quot;/static/style/style.min.css?v=4b4b8cb1e49605137f77fed041f8922b&quot; type=&quot;text/css&quot;/&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">    &lt;link rel=&quot;stylesheet&quot; href=&quot;/custom/custom.css&quot; type=&quot;text/css&quot; /&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script src=&quot;/static/components/es6-promise/promise.min.js?v=f004a16cb856e0ff11781d01ec5ca8fe&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script src=&quot;/static/components/preact/index.js?v=00a2fac73c670ce39ac53d26640eb542&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script src=&quot;/static/components/proptypes/index.js?v=c40890eb04df9811fcc4d47e53a29604&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script src=&quot;/static/components/preact-compat/index.js?v=aea8f6660e54b18ace8d84a9b9654c1c&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script src=&quot;/static/components/requirejs/require.js?v=951f856e81496aaeec2e71a1c2c0d51f&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      require.config({</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          urlArgs: &quot;v=20181025074329&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          baseUrl: '/static/'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          paths: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            'auth/js/main': 'auth/js/main.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            custom : '/custom'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            nbextensions : '/nbextensions'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            kernelspecs : '/kernelspecs'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            underscore : 'components/underscore/underscore-min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            backbone : 'components/backbone/backbone-min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            jed: 'components/jed/jed'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            jquery: 'components/jquery/jquery.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            json: 'components/requirejs-plugins/src/json'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            text: 'components/requirejs-text/text'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            bootstrap: 'components/bootstrap/js/bootstrap.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            bootstraptour: 'components/bootstrap-tour/build/js/bootstrap-tour.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            'jquery-ui': 'components/jquery-ui/jquery-ui.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            moment: 'components/moment/min/moment-with-locales'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            codemirror: 'components/codemirror'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            termjs: 'components/xterm.js/xterm'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            typeahead: 'components/jquery-typeahead/dist/jquery.typeahead.min'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          map: { // for backward compatibility</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &quot;*&quot;: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                  &quot;jqueryui&quot;: &quot;jquery-ui&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          shim: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            typeahead: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              deps: [&quot;jquery&quot;]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: &quot;typeahead&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            underscore: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: '_'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            backbone: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              deps: [&quot;underscore&quot;</Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;jquery&quot;]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: &quot;Backbone&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            bootstrap: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              deps: [&quot;jquery&quot;]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: &quot;bootstrap&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            bootstraptour: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              deps: [&quot;bootstrap&quot;]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: &quot;Tour&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &quot;jquery-ui&quot;: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              deps: [&quot;jquery&quot;]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              exports: &quot;$&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          waitSeconds: 30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      });</Data></Cell>
+   </Row>
+   <Row ss:Index="85">
+    <Cell><Data ss:Type="String">      require.config({</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          map: {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              '*':{</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                'contents': 'services/contents'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      });</Data></Cell>
+   </Row>
+   <Row ss:Index="93">
+    <Cell><Data ss:Type="String">      // error-catching custom.js shim.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      define(&quot;custom&quot;</Data></Cell>
+    <Cell><Data ss:Type="String"> function (require</Data></Cell>
+    <Cell><Data ss:Type="String"> exports</Data></Cell>
+    <Cell><Data ss:Type="String"> module) {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          try {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              var custom = require('custom/custom');</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              console.debug('loaded custom.js');</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              return custom;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          } catch (e) {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              console.error(&quot;error loading custom.js&quot;</Data></Cell>
+    <Cell><Data ss:Type="String"> e);</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              return {};</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      })</Data></Cell>
+   </Row>
+   <Row ss:Index="105">
+    <Cell><Data ss:Type="String">    document.nbjs_translations = {&quot;domain&quot;: &quot;nbjs&quot;</Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;locale_data&quot;: {&quot;nbjs&quot;: {&quot;&quot;: {&quot;domain&quot;: &quot;nbjs&quot;}}}};</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    document.documentElement.lang = navigator.language.toLowerCase();</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="109">
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row ss:Index="112">
+    <Cell><Data ss:Type="String">&lt;/head&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="114">
+    <Cell><Data ss:Type="String">&lt;body class=&quot;edit_app &quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">data-base-url=&quot;/&quot;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">data-file-path=&quot;data/Chicago-Divvy-2016.csv&quot;</Data></Cell>
+   </Row>
+   <Row ss:Index="119">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:Index="122">
+    <Cell><Data ss:Type="String">dir=&quot;ltr&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="124">
+    <Cell><Data ss:Type="String">&lt;noscript&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;div id='noscript'&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      Jupyter Notebook requires JavaScript.&lt;br&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      Please enable it to proceed. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/noscript&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="131">
+    <Cell><Data ss:Type="String">&lt;div id=&quot;header&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;div id=&quot;header-container&quot; class=&quot;container&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;div id=&quot;ipython_notebook&quot; class=&quot;nav navbar-brand&quot;&gt;&lt;a href=&quot;/tree&quot; title='dashboard'&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      &lt;img src='/static/base/images/logo.png?v=641991992878ee24c6f3826e81054a0f' alt='Jupyter Notebook'/&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;/a&gt;&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="137">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row ss:Index="139">
+    <Cell><Data ss:Type="String">&lt;span id=&quot;save_widget&quot; class=&quot;pull-left save_widget&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;span class=&quot;filename&quot;&gt;&lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;span class=&quot;last_modified&quot;&gt;&lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="145">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row ss:Index="150">
+    <Cell><Data ss:Type="String">    &lt;span id=&quot;login_widget&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="154">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row ss:Index="156">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;div class=&quot;header-bar&quot;&gt;&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="161">
+    <Cell><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   <Row ss:Index="163">
+    <Cell><Data ss:Type="String">&lt;div id=&quot;menubar-container&quot; class=&quot;container&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;div id=&quot;menubar&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;div id=&quot;menus&quot; class=&quot;navbar navbar-default&quot; role=&quot;navigation&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      &lt;div class=&quot;container-fluid&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;p  class=&quot;navbar-text indicator_area&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;span id=&quot;current-mode&quot; &gt;current mode&lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;/p&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;button type=&quot;button&quot; class=&quot;btn btn-default navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;i class=&quot;fa fa-bars&quot;&gt;&lt;/i&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;span class=&quot;navbar-text&quot;&gt;Menu&lt;/span&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;/button&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;ul class=&quot;nav navbar-nav navbar-right&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;li id=&quot;notification_area&quot;&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;div class=&quot;navbar-collapse collapse&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;ul class=&quot;nav navbar-nav&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;File&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;ul id=&quot;file-menu&quot; class=&quot;dropdown-menu&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;new-file&quot;&gt;&lt;a href=&quot;#&quot;&gt;New&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;save-file&quot;&gt;&lt;a href=&quot;#&quot;&gt;Save&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;rename-file&quot;&gt;&lt;a href=&quot;#&quot;&gt;Rename&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;download-file&quot;&gt;&lt;a href=&quot;#&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Edit&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;ul id=&quot;edit-menu&quot; class=&quot;dropdown-menu&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-find&quot;&gt;&lt;a href=&quot;#&quot;&gt;Find&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-replace&quot;&gt;&lt;a href=&quot;#&quot;&gt;Find &amp;amp; Replace&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li class=&quot;divider&quot;&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li class=&quot;dropdown-header&quot;&gt;Key Map&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-keymap-default&quot;&gt;&lt;a href=&quot;#&quot;&gt;Default&lt;i class=&quot;fa&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-keymap-sublime&quot;&gt;&lt;a href=&quot;#&quot;&gt;Sublime Text&lt;i class=&quot;fa&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-keymap-vim&quot;&gt;&lt;a href=&quot;#&quot;&gt;Vim&lt;i class=&quot;fa&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                &lt;li id=&quot;menu-keymap-emacs&quot;&gt;&lt;a href=&quot;#&quot;&gt;emacs&lt;i class=&quot;fa&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;View&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;ul id=&quot;view-menu&quot; class=&quot;dropdown-menu&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;li id=&quot;toggle_header&quot; title=&quot;Show/Hide the logo and notebook title (above menu bar)&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;a href=&quot;#&quot;&gt;Toggle Header&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;li id=&quot;menu-line-numbers&quot;&gt;&lt;a href=&quot;#&quot;&gt;Toggle Line Numbers&lt;/a&gt;&lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;Language&lt;/a&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;ul id=&quot;mode-menu&quot; class=&quot;dropdown-menu&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">              &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">            &lt;/li&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          &lt;/ul&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  &lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="217">
+    <Cell><Data ss:Type="String">&lt;div class=&quot;lower-header-bar&quot;&gt;&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="220">
+    <Cell><Data ss:Type="String">&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="222">
+    <Cell><Data ss:Type="String">&lt;div id=&quot;site&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="225">
+    <Cell><Data ss:Type="String">&lt;div id=&quot;texteditor-backdrop&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;div id=&quot;texteditor-container&quot; class=&quot;container&quot;&gt;&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="230">
+    <Cell><Data ss:Type="String">&lt;/div&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="237">
+    <Cell><Data ss:Type="String">    </Data></Cell>
+   </Row>
+   <Row ss:Index="240">
+    <Cell><Data ss:Type="String">&lt;script src=&quot;/static/edit/js/main.min.js?v=ac978ed627b00fbfa328acc3f14b22fb&quot; type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="243">
+    <Cell><Data ss:Type="String">&lt;script type='text/javascript'&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  function _remove_token_from_url() {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    if (window.location.search.length &lt;= 1) {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      return;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    var search_parameters = window.location.search.slice(1).split('&amp;');</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    for (var i = 0; i &lt; search_parameters.length; i++) {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      if (search_parameters[i].split('=')[0] === 'token') {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        // remote token from search parameters</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        search_parameters.splice(i</Data></Cell>
+    <Cell><Data ss:Type="String"> 1);</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        var new_search = '';</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        if (search_parameters.length) {</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">          new_search = '?' + search_parameters.join('&amp;');</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        var new_url = window.location.origin + </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                      window.location.pathname + </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                      new_search + </Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">                      window.location.hash;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        window.history.replaceState({}</Data></Cell>
+    <Cell><Data ss:Type="String"> &quot;&quot;</Data></Cell>
+    <Cell><Data ss:Type="String"> new_url);</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">        return;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">      }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  }</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">  _remove_token_from_url();</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/script&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/body&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="270">
+    <Cell><Data ss:Type="String">&lt;/html&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <TopRowVisible>17</TopRowVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
